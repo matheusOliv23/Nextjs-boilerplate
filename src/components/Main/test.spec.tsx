@@ -1,4 +1,4 @@
-import { getByRole, render, screen } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 import Main from "./index"
 
 describe("Main", () => {

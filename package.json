@@ -13,14 +13,16 @@
     },
     "lint-staged": {
         "src/**/*": [
-            "yarn test --bail"
+            "yarn lint --fix",
+            "yarn test --findRelatedTests --bail"
         ]
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "next": "12.2.5",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "styled-components": "^5.3.5"
     },
     "devDependencies": {
         "@babel/core": "^7.18.13",
@@ -31,6 +33,7 @@
         "@types/node": "18.7.14",
         "@types/react": "18.0.18",
         "@types/react-dom": "18.0.6",
+        "@types/styled-components": "^5.1.26",
         "@typescript-eslint/eslint-plugin": "^5.36.1",
         "@typescript-eslint/parser": "^5.36.1",
         "babel-jest": "^29.0.1",
@@ -44,5 +47,8 @@
         "prettier": "2.7.1",
         "ts-jest": "^28.0.8",
         "typescript": "4.8.2"
+    },
+    "resolutions": {
+        "styled-components": "^5"
     }
 }

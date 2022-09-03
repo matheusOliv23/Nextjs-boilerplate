@@ -1,5 +1,7 @@
 # Nextjs Boilerplate
 
+![img](https://user-images.githubusercontent.com/78116908/188286662-28554fa0-b6bb-493c-b6bf-b0a577c7c7d6.png)
+
 
 ## Tecnologias
 

@@ -2,8 +2,24 @@
 
 exports[`Main should snapshot 1`] = `
 <div>
-  <h2>
-    React avançado
-  </h2>
+  <main
+    class="sc-bczRLJ bpffWR"
+  >
+    <h1
+      class="sc-gsnTZi cTsTyF"
+    >
+      Boilerplate
+    </h1>
+    <h2
+      class="sc-dkzDqf iiBfFY"
+    >
+      Typescript, Reactjs, Nextjs, Styled Components
+    </h2>
+    <img
+      alt=""
+      class="sc-hKMtZM bueFVL"
+      src="/astro2.jpg"
+    />
+  </main>
 </div>
 `;

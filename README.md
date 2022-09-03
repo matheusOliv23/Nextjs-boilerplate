@@ -17,9 +17,9 @@
 
 ## Iniciando a aplicação
 
-- 1. Clone o projeto na sua máquina
-- 2. Apenas rode o comando `npm run dev` ou `yarn dev` no terminal, dentro da sua pasta
-- 3. Abra seu navegador no endereço `localhost:3000`
+-  Clone o projeto na sua máquina
+-  Apenas rode o comando `npm run dev` ou `yarn dev` no terminal, dentro da sua pasta
+-  Abra seu navegador no endereço `localhost:3000`
 
 ## Criando um componente
 
